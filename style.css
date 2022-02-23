@@ -1,0 +1,114 @@
+:root {
+    /* Primary */
+    --lightCyan: hsl(193, 38%, 86%);
+    --neonGreen: hsl(150, 100%, 66%);
+
+    /* Neutral */
+    --grayishBlue: hsla(
+        216,
+        19%,
+        38%,
+        0.6 /* I added opacity in order to see the F... image/hr */
+    );
+    --darkGrayishBlue: hsl(217, 19%, 24%);
+
+    /* display's height (-20px cuz overflow)*/
+    --height: calc(100vh - 20px);
+}
+
+/* Tags */
+picture,
+picture source,
+picture img {
+    width: 100%;
+    height: auto;
+}
+
+body {
+    font-size: 28px;
+    font-family: "Manrope", sans-serif;
+    font-weight: 800;
+
+    background: var(--darkGrayishBlue);
+    height: var(--height);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    text-align: center;
+    color: var(--lightCyan);
+}
+
+p.adv {
+    font-size: 0.3575em;
+    font-weight: 400;
+    letter-spacing: 5px;
+    margin: 45px auto 0;
+
+    color: var(--neonGreen);
+}
+
+/* Classes */
+.container {
+    background-color: var(--grayishBlue);
+
+    width: 21.6rem;
+    border-radius: 15px;
+
+    padding: 0 25px;
+}
+
+/* Button (btn) */
+.btn-dice {
+    background: var(--neonGreen);
+    border-radius: 100%;
+
+    width: 55px;
+    height: 55px;
+    margin: 0 auto;
+
+    display: grid;
+    place-items: center;
+
+    position: relative;
+    bottom: -27.5px;
+}
+
+.btn-dice:hover {
+    cursor: pointer;
+}
+
+.btn-dice img {
+    margin: 0;
+}
+
+/* btn effects */
+.btn-effect {
+    transition: box-shadow 200ms;
+    box-shadow: 0px 0px 20px 2px var(--neonGreen);
+}
+.btn-effect:hover {
+    cursor: progress;
+}
+
+/* Btn highlight -> none */
+.no-select {
+    user-select: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+}
+
+/* Credits */
+.attribution {
+    position: absolute;
+    top: var(--height);
+}
+
+/* Media query */
+@media (min-width: 900px) {
+    .container {
+        width: 32rem;
+        padding: 0 50px;
+    }
+}
