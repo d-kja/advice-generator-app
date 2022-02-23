@@ -9,5 +9,5 @@
 
 ### Links
 
-- Preview: [Link](https://nyyu.github.io/frontEndMentor-qrCodeComponent/);
+- Preview: [Link](https://nyyu.github.io/advice-generator-app/);
 - FrontEnd Mentor: [Link](https://www.frontendmentor.io/challenges/advice-generator-app-QdUG-13db);
