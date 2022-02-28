@@ -1,4 +1,4 @@
-# Advice generator app (Junior lvl)
+# Advice generator app
 
 ## Table 
 
