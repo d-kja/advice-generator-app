@@ -39,12 +39,11 @@
 
             <p>
                 "<span id="main-adv">
-                    Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                    Officia eligendi nobis nam, doloribus cum alias soluta animi
-                    corporis similique aliquam quasi eius tempora est quae
-                    repudiandae, consectetur, incidunt quisquam! Quam!
-                </span>
-                "
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Sunt eos ad rem nulla ducimus magnam cupiditate molestias
+                    veritatis sed. Alias consectetur praesentium provident,
+                    laboriosam hic at tempore soluta rem tempora. </span
+                >"
             </p>
 
             <!-- Horizontal line -->
@@ -93,7 +92,7 @@
             });
 
             async function btnRandom(path) {
-                return await fetch(path)
+                return await fetch(path, { cache: "no-store" })
                     .then((resp) => {
                         return resp.json();
                     })

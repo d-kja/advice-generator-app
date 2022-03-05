@@ -1,16 +1,12 @@
 :root {
     /* Primary */
-    --lightCyan: hsl(193, 38%, 86%);
-    --neonGreen: hsl(150, 100%, 66%);
+    --lightCyan: #cee3e9;
+    --neonGreen: #53ffaa;
 
     /* Neutral */
-    --grayishBlue: hsla(
-        216,
-        19%,
-        38%,
-        0.6 /* I added opacity in order to see the F... image/hr */
-    );
-    --darkGrayishBlue: hsl(217, 19%, 24%);
+    --grayishBlue: #313a48;
+    --darkGrayishBlue: #202733;
+    --dark-blue: #202733;
 
     /* display's height (-20px cuz overflow)*/
     --height: calc(100vh - 20px);
@@ -41,8 +37,8 @@ body {
 }
 
 p.adv {
-    font-size: 0.3575em;
-    font-weight: 400;
+    font-size: 0.4075em;
+    font-weight: 500;
     letter-spacing: 5px;
     margin: 45px auto 0;
 
@@ -73,7 +69,7 @@ p.adv {
 
     position: relative;
     bottom: -27.5px;
-    
+
     transition: box-shadow 200ms;
 }
 
