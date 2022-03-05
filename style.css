@@ -37,7 +37,7 @@ body {
 }
 
 h1.adv {
-    font-size: 0.4075em;
+    font-size: 0.5075em;
     font-weight: 500;
     letter-spacing: 5px;
     margin: 45px auto 0;
@@ -63,6 +63,7 @@ h1.adv {
     width: 55px;
     height: 55px;
     margin: 0 auto;
+    padding: 2.5px;
 
     display: grid;
     place-items: center;
