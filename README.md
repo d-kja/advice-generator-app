@@ -14,7 +14,7 @@
 -   Preview: [Link](https://nyyu.github.io/advice-generator-app/);
 -   FrontEnd Mentor: [Link](https://www.frontendmentor.io/challenges/advice-generator-app-QdUG-13db);
 
--   <h3>Desktop</h3>:
+-   <h3>Desktop</h3>
     <p align="center">
         <img src="preview/desktop.png">
     </p>
